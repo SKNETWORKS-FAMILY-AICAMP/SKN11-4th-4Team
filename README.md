@@ -308,16 +308,17 @@ mistralai/Mistral-7B-Instruct-v0.1</td>
 Figma로 설계된 디자인 시안을 바탕으로,  HTML,CSS 사용자 인터페이스를 구현
 </br> 
 
-<img src="https://github.com/user-attachments/assets/f50c330b-b149-4292-a4c7-43cec7108e08"/>
+<img src="https://github.com/user-attachments/assets/f50c330b-b149-4292-a4c7-43cec7108e08" width=990/>
 
+</br>
+
+<img src="https://github.com/user-attachments/assets/7896afd1-8502-40e8-a0cd-6adc14651583" width=990/>
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/fe4ee735-fa8a-4b76-8e96-a896aa84f788" width="330"/>
   <img src="https://github.com/user-attachments/assets/8a03da95-a7f9-4cc3-8449-f58b3ecef668" width="330"/>
   <img src="https://github.com/user-attachments/assets/c6781acd-399d-4f57-881a-3e9f2e8b1a25" width="330"/>
 </div>
-
-
 
 </br> </br> 
 
