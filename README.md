@@ -218,15 +218,33 @@ mistralai/Mistral-7B-Instruct-v0.1</td>
 ![image](https://github.com/user-attachments/assets/6472fb8e-f88b-4bc8-ad8b-72a7fab0a9b8)
 
 <br/><br/>
+<h2>🖌️ 화면 설계서</h2>
+<table cellspacing="0" cellpadding="20" style="border-collapse: collapse; width: 100%; text-align: center; margin-bottom: 40px;">
+  <tr>
+    <td style="width: 50%; background-color: #f2f2; border: 2px solid #ccc;">
+      <img src="https://github.com/user-attachments/assets/2e5fc06e-dd30-45cb-898f-3b7e4a32e7de" width="300" ><br>
+      <div><strong>메인화면</strong></div>
+    </td>
+    <td style="width: 50%; background-color: #f2f2f2; border: 2px solid #ccc;">
+      <img src="https://github.com/user-attachments/assets/d5696fc1-0ee5-42f3-a173-4c4ce409361d" width="300"><br>
+      <div><strong>로그인</strong></div>
+    </td>
+  </tr>
+</table>
 
-# 🖌️ 화면 설계서
-- 메인화면
-  
-- 로그인
+<table cellspacing="0" cellpadding="20" style="border-collapse: collapse; width: 100%; text-align: center;">
+  <tr>
+    <td style="width: 50%; background-color: #f2f2f2; border: 2px solid #ccc;">
+      <img src="https://github.com/user-attachments/assets/7306f66c-fd80-4365-9379-4cc9a9faf1be" width="300"><br>
+      <div><strong>회원가입</strong></div>
+    </td>
+    <td style="width: 50%; background-color: #f2f2f2; border: 2px solid #ccc;">
+      <img src="https://github.com/user-attachments/assets/3171fb8b-c33a-4309-9f2d-291ea68259eb" width="300"><br>
+      <div><strong>챗봇</strong></div>
+    </td>
+  </tr>
+</table>
 
-- 회원가입
-
-- 챗봇
 
 <br/><br/>
 
