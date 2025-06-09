@@ -67,57 +67,45 @@
   <tbody>
     <tr>
       <td>1</td>
-      <td>프로젝트 기획 및 주제 확정</td>
+      <td>스킨케어 질문 데이터 수집</td>
       <td>25.05.04-25.05.08</td>
-      <td>ALL</td>
+      <td>김성지, 백미송</td>
     </tr>
     <tr>
       <td>2</td>
-      <td>화장품, 성분 데이터 수집</td>
+      <td>데이터 전처리 및 정제</td>
       <td>25.05.08-25.05.10</td>
-      <td>김성지, 오정현, 현유경</td>
+      <td>김성지</td>
     </tr>
     <tr>
       <td>3</td>
-      <td>데이터 전처리 및 정제</td>
+      <td>QLoRA 학습 데이터 생성</td>
       <td>25.05.10</td>
-      <td>김성지, 오정현, 현유경</td>
+      <td>백미송, 현유경</td>
     </tr>
     <tr>
       <td>4</td>
-      <td>RAG 시스템 구조 설계 및 분석</td>
+      <td>백엔드 장고 변환</td>
       <td>25.05.11-25.05.13</td>
-      <td>오정현, 현유경</td>
+      <td>김성지, 오정현</td>
     </tr>
     <tr>
       <td>5</td>
-      <td>VectorDB 구조 설계 및 구축 (ChromaDB)</td>
-      <td>25.05.13-25.05.14</td>
-      <td>김성지, 현유경</td>
+      <td>QLoRA 세팅 및 파인튜닝</td>
+      <td>25.05.14-25.05.15</td>
+      <td>백미송, 현유경</td>
     </tr>
     <tr>
       <td>6</td>
-      <td>테스트 질의셋 작성 및 평가</td>
-      <td>25.05.13</td>
-      <td>백미송</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>QLoRA 세팅 및 파인튜닝</td>
-      <td>25.05.14-25.05.15</td>
-      <td>김성지, 백미송, 현유경</td>
-    </tr>
-    <tr>
-      <td>8</td>
-      <td>Streamlit 챗봇 UI 구현</td>
+      <td>HTML/CSS를 활용한 UI 설계 및 구현</td>
       <td>25.05.12-25.05.14</td>
-      <td>백미송, 오정현</td>
+      <td>김성지, 오정현</td>
     </tr>
-    <tr>
-      <td>9</td>
-      <td>FastAPI 백엔드 구현</td>
+<tr>
+      <td>8</td>
+      <td>AWS 배포</td>
       <td>25.05.14-25.05.15</td>
-      <td>오정현, 현유경</td>
+      <td>김성지,현유경</td>
     </tr>
     <tr>
       <td>10</td>
@@ -218,6 +206,7 @@ mistralai/Mistral-7B-Instruct-v0.1</td>
 ![image](https://github.com/user-attachments/assets/6472fb8e-f88b-4bc8-ad8b-72a7fab0a9b8)
 
 <br/><br/>
+
 <h2>🖌️ 화면 설계서</h2>
 <table cellspacing="0" cellpadding="20" style="border-collapse: collapse; width: 100%; text-align: center; margin-bottom: 40px;">
   <tr>
@@ -245,7 +234,6 @@ mistralai/Mistral-7B-Instruct-v0.1</td>
   </tr>
 </table>
 
-
 <br/><br/>
 
 
@@ -265,8 +253,7 @@ mistralai/Mistral-7B-Instruct-v0.1</td>
 **1. usage 전처리**  
   - 특수기호 (■) 제거   
 <img width="800" src="https://github.com/user-attachments/assets/3e329f19-d1c3-4f90-b80e-cd0b76fe31b7"> </br> 
-<img width="800" src="https://github.com/user-attachments/assets/32da1dfa-a02b-4e80-862e-1455da468c27"> </br> 
- 
+
 </br> </br> 
 
 # DB 연동 구현 코드
@@ -281,26 +268,7 @@ mistralai/Mistral-7B-Instruct-v0.1</td>
 - 스타트업에서 많이 사용하는 Chroma로 변경하여,  
   LangChain과의 호환성 및 개발 편의성을 높임 </br> 
 
-### 2️⃣ 프롬프트 수정
-- 프롬프트에 구체적인 질문-답변 예시를 포함시켜 모델이 더 정확하고 자연스럽게 응답할 수 있도록 개선 </br> 
-```python
-[질문 & 답변 예시3]
-질문: 세척력 좋은 클렌징폼 추천해줘
-답변:
-세척력이 좋은 클렌징폼을 찾고 계시다면, 모공 속 노폐물까지 깔끔히 제거해주는 제품 위주로 추천드릴게요.
 
-1. 아니스프리 화산송이 모공 클렌징 폼
-   - 추천 이유: 제주 화산송이 파우더가 피지와 노폐물을 강력하게 흡착하여 모공까지 깨끗하게 세정해줌.
-   - 세정력: ★★★★★
-
-2. 라로슈포제 에빠끌라 퓨리파잉 클렌징 젤
-   - 추천 이유: 징크 PCA(피지 조절 성분)와 라로슈포제 온천수가 과도한 유분을 잡아주며 자극 없이 세정함
-   - 세정력: ★★★★
-
-3. AHC 클렌징 폼 (퓨어 리얼 아이 크림 폼)
-   - 추천 이유: 마데카소사이드와 히알루론산이 세정 후에도 피부를 진정시키고 보습을 유지시켜 당김 없이 클렌징 가능
-   - 세정력: ★★★★
-```
 
 <br/><br/>
 
