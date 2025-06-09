@@ -206,8 +206,7 @@ mistralai/Mistral-7B-Instruct-v0.1</td>
 ![image](https://github.com/user-attachments/assets/6472fb8e-f88b-4bc8-ad8b-72a7fab0a9b8)
 
 <br/><br/>
-
-<h2>🖌️ 화면 설계서</h2>
+<h2>🖌️ 화면 설계서(Figma)</h2>
 <table cellspacing="0" cellpadding="20" style="border-collapse: collapse; width: 100%; text-align: center; margin-bottom: 40px;">
   <tr>
     <td style="width: 50%; background-color: #f2f2; border: 2px solid #ccc;">
@@ -228,7 +227,7 @@ mistralai/Mistral-7B-Instruct-v0.1</td>
       <div><strong>회원가입</strong></div>
     </td>
     <td style="width: 50%; background-color: #f2f2f2; border: 2px solid #ccc;">
-      <img src="(https://github.com/user-attachments/assets/55f10dc2-ee47-4550-b752-034fb02a19a4" width="300"><br>
+      <img src="https://github.com/user-attachments/assets/55f10dc2-ee47-4550-b752-034fb02a19a4" width="300"><br>
       <div><strong>챗봇</strong></div>
     </td>
   </tr>
@@ -254,22 +253,6 @@ mistralai/Mistral-7B-Instruct-v0.1</td>
 **1. usage 전처리**  
   - 특수기호 (■) 제거   
 <img width="800" src="https://github.com/user-attachments/assets/3e329f19-d1c3-4f90-b80e-cd0b76fe31b7"> </br> 
-
-</br> </br> 
-
-# DB 연동 구현 코드
-[구글 드라이브 링크](https://drive.google.com/drive/u/0/folders/1IpsUk4_NFOL92nppOb0HCspDQQ6YUbRr)
-
-
-### 1️⃣ 벡터 DB 변경
-
-- 초기에는 Faiss를 사용했으나, 대규모 데이터에 최적화된 라이브러리여서  
-  40,000개 정도의 데이터 규모에는 적합하지 않다고 판단
-
-- 스타트업에서 많이 사용하는 Chroma로 변경하여,  
-  LangChain과의 호환성 및 개발 편의성을 높임 </br> 
-
-
 
 <br/><br/>
 
@@ -323,18 +306,18 @@ mistralai/Mistral-7B-Instruct-v0.1</td>
 # 수행결과(테스트/시연 페이지)
 ## 🎨 Frontend  
 Figma로 설계된 디자인 시안을 바탕으로,  HTML,CSS 사용자 인터페이스를 구현
+</br> 
+
+<img src="https://github.com/user-attachments/assets/f50c330b-b149-4292-a4c7-43cec7108e08"/>
+
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/8b777522-1122-4658-a27f-8999863d2a25" width="500"/>
-  <img src="https://github.com/user-attachments/assets/036c7ad9-fc6d-4754-b382-eac03f1ed633" width="500"/>
+  <img src="https://github.com/user-attachments/assets/fe4ee735-fa8a-4b76-8e96-a896aa84f788" width="330"/>
+  <img src="https://github.com/user-attachments/assets/8a03da95-a7f9-4cc3-8449-f58b3ecef668" width="330"/>
+  <img src="https://github.com/user-attachments/assets/c6781acd-399d-4f57-881a-3e9f2e8b1a25" width="330"/>
 </div>
 
- </br> </br> 
- 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/0dd1d637-d902-4811-a7d6-4bb3e36e65cc" width="500"/>
-  <img src="https://github.com/user-attachments/assets/7153ea36-48fa-4220-a562-ef01a2cc67e6" width="500"/>
-</div>
+
 
 </br> </br> 
 
@@ -343,46 +326,18 @@ Figma로 설계된 디자인 시안을 바탕으로,  HTML,CSS 사용자 인터�
 #### 주요 기능 및 처리 흐름
 ##### ...
 
-
-</br></br>
-
-## 🔧 Finetuning
-### 사용자 질문 데이터 생성 및 학습  
-- 100개의 예시 사용자 질문 생성
-- 크롤링한 화장품 성분 및 리뷰 문서로 RAG 모델에 질의  
-- 총 100쌍의 질문-답변 초안 데이터를 생성  
-- 이 중 100쌍을 선별하여 QLoRA 기법으로 사전 학습(파인튜닝) 진행 
-</br>
-
-### 대상 모델 
---- 
-#### 🪷 Bllossom/llama-3.2-Korean-Bllossom-3B
-Bllossom 모델을 QLoRA 방식으로 100개 데이터로 파인튜닝한 결과, 초기에는 손실이 빠르게 감소했지만 후반부로 갈수록 수렴 속도가 둔화되었으며, 향후 추가 개선이 필요한 것으로 분석 
-
-<img src="https://github.com/user-attachments/assets/28906fa3-9824-4b20-97a0-58772c5c850c">
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/b6486782-00f6-4927-b0d4-64528b3fa315" width="400"/>
-  <img src="https://github.com/user-attachments/assets/2673e2c2-e5bc-4415-b9ac-dae1753e97e2" width="400"/>
-</div>
-
----
-
-#### 🌊 mistralai/Mistral-7B-Instruct-v0.1 
-Mistral 모델을 QLoRA 방식으로 100개 데이터에 파인튜닝한 결과, 훈련 손실과 검증 손실이 모두 점차 감소했으며 약 72 스텝 이후 EarlyStopping 조건을 만족하여 학습이 조기에 종료 
-
-<img src="https://github.com/user-attachments/assets/0a8fc297-a32a-42f5-a46b-7e2f20ea6f7f">
-<img src="https://github.com/user-attachments/assets/f83893ec-25e1-43b5-8dad-3f94d5de241e">
-
 </br></br>
 
 # 🚨 개선 사항
+
+(이전꺼 캡쳐해놓고 어떻게 향상시켰는지 쓰기)
 
 1. **QLoRA 파인튜닝 모델 성능 한계**  
    현재 사용된 QLoRA 파인튜닝 모델은 약 100개의 QA 데이터셋으로 학습되었기 때문에,  
    다양한 질문에 대한 일반화 성능에 한계가 있습니다.  
    향후에는 보다 많은 데이터를 추가하여 학습시킴으로써 모델의 응답 품질을 향상시킬 예정입니다.
 
-2. **웹 버전 UI 개선 계획**  
+2. **웹 버전 UI 개선 계획**   -> 장고로 바꾸면서 어쩌구 한계 극복 어케 했는지 쓰기
    현재 PiBoo의 사용자 인터페이스는 모바일 최적화된 휴대폰 화면 형태로 디자인되어 있습니다.  
    하지만 다음 프로젝트에서는 Django와 HTML 기반의 웹사이트 제작을 배우게 되어,  
    웹 버전 형태로 구현하여 다양한 환경에서도 원활하게 사용할 수 있도록 개선할 계획입니다.
