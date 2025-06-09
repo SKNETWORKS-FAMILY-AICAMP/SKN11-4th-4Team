@@ -228,13 +228,14 @@ mistralai/Mistral-7B-Instruct-v0.1</td>
       <div><strong>회원가입</strong></div>
     </td>
     <td style="width: 50%; background-color: #f2f2f2; border: 2px solid #ccc;">
-      <img src="https://github.com/user-attachments/assets/3171fb8b-c33a-4309-9f2d-291ea68259eb" width="300"><br>
+      <img src="(https://github.com/user-attachments/assets/55f10dc2-ee47-4550-b752-034fb02a19a4" width="300"><br>
       <div><strong>챗봇</strong></div>
     </td>
   </tr>
 </table>
 
 <br/><br/>
+
 
 
 # 📜 수집한 데이터 및 전처리 요약
@@ -321,71 +322,27 @@ mistralai/Mistral-7B-Instruct-v0.1</td>
 
 # 수행결과(테스트/시연 페이지)
 ## 🎨 Frontend  
-Figma로 설계된 디자인 시안을 바탕으로,  Streamlit을 통해 간단하고 빠른 사용자 인터페이스를 구현
+Figma로 설계된 디자인 시안을 바탕으로,  HTML,CSS 사용자 인터페이스를 구현
+
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/fef2d7ab-0a4a-469a-b423-272d55d02f69" width="300"/>
-  <img src="https://github.com/user-attachments/assets/423424d3-8938-4e8c-8b3f-776d20f7b04e" width="300"/>
-  <img src="https://github.com/user-attachments/assets/0785f9b4-aea6-49dd-9500-b176800a257c" width="300"/>
+  <img src="https://github.com/user-attachments/assets/8b777522-1122-4658-a27f-8999863d2a25" width="500"/>
+  <img src="https://github.com/user-attachments/assets/036c7ad9-fc6d-4754-b382-eac03f1ed633" width="500"/>
 </div>
 
-<br/>
+ </br> </br> 
+ 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/0dd1d637-d902-4811-a7d6-4bb3e36e65cc" width="500"/>
+  <img src="https://github.com/user-attachments/assets/7153ea36-48fa-4220-a562-ef01a2cc67e6" width="500"/>
+</div>
+
+</br> </br> 
 
 ## 🛠️ Backend
 
 #### 주요 기능 및 처리 흐름
-##### 모델과 프롬프트 체인 결합  
-- 파인튜닝된 QLoRA 모델과 프롬프트 템플릿을 결합하여 하나의 체인 생성  
-- 프롬프트 내에 대화 이력을 포함하여 문맥을 유지하며 응답 생성 
-</br>
+##### ...
 
-
-<strong>체인 생성</strong>
-
-</br> 
-
-  ```python
-def get_chain_with_model(model):
-    prompt = ChatPromptTemplate.from_messages([
-        ('system', 
-         """
-        당신은 화장품 전문가입니다. 아래 예시처럼 질문에 답변하세요.
-        
-        [1.규칙]
-        (생략)
-        
-        [2.성분 정보 추가 시]
-        (생략)
-        
-        [3.궁합 포인트 추가 시]
-        (생략)
-        
-        [4.추천 이유 추가 시]
-        (생략)
-        
-        [5.세정력 추가 시]
-        (생략)
-        
-        [6.주요 리뷰 추가 시]
-        (생략)
-        
-        [7. 답변 스타일]
-        - 아래 예시처럼 자세하고, 사용자 친화적인 문장으로 작성합니다.
-        
-        [질문 & 답변 예시1~5]
-        ... (생략) ...
-                 """
-         ), 
-        MessagesPlaceholder(variable_name='history'),
-        ('human', '{query}')
-    ])
-    chain = prompt | model
-    return RunnableWithMessageHistory(
-        chain,
-        get_session_history=get_by_session_id,
-        input_messages_key='query',
-        history_messages_key='history'
-    )
-```
 
 </br></br>
 
