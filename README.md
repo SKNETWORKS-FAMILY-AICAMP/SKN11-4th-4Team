@@ -241,7 +241,11 @@ mistralai/Mistral-7B-Instruct-v0.1</td>
 > 1. `skincare_qa.csv`: 화장품 관련 카페의 스킨케어 Q&A칸에서 제목, 본문 2가지의 항목을 크롤링
 
 ## 스킨케어 질문 크롤링
-<img width="864" alt="olive_crw" src="https://github.com/user-attachments/assets/318ce004-9f6c-4dd0-a06d-78b9d50cf804" />
+<div>
+  <img width="500" alt="cafe_skincare" src="https://github.com/user-attachments/assets/d6373551-6c21-456d-9a08-75638a596df3" />
+  <img width="500" alt="cafe_skincare_text" src="https://github.com/user-attachments/assets/7c952580-ca61-4f1c-a805-0899ca89cc9d" />
+</div>
+
 <br/>
 
 ## ☝🏻 전처리 과정
