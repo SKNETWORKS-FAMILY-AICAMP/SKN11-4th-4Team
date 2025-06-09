@@ -238,15 +238,15 @@ mistralai/Mistral-7B-Instruct-v0.1</td>
 
 
 # 📜 수집한 데이터 및 전처리 요약
-> 1. `oliveyoung.csv`: 올리브영 사이트의 카테고리 항목에서 스킨케어,마스크팩,클랜징,선케어 4가지의 항목을 크롤링
+> 1. `skincare_qa.csv`: 화장품 관련 카페의 스킨케어 Q&A칸에서 제목, 본문 2가지의 항목을 크롤링
 
-## 올리브영 크롤링
+## 스킨케어 질문 크롤링
 <img width="864" alt="olive_crw" src="https://github.com/user-attachments/assets/318ce004-9f6c-4dd0-a06d-78b9d50cf804" />
 <br/>
 
 ## ☝🏻 전처리 과정
 
-### 🫒 oliveyoung.csv </br> 
+### 🫒 skincare_qa.csv </br> 
 - 원본 데이터  </br> 
 <img width="800" src="https://github.com/user-attachments/assets/03f7d5ea-19a9-4730-83bb-41142f4e9b41"> </br>
 
