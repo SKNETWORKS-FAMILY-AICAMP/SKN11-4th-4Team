@@ -278,35 +278,49 @@ mistralai/Mistral-7B-Instruct-v0.1</td>
   <tbody>
     <tr>
       <td>CASE01</td>
-      <td>질문 의도에 적합한 답변 반환</td>
-      <td>건성 피부가 겨울철에 사용할만한 크림 추천해줘</td>
-      <td>화장품 목록 + 실제 사용자의 리뷰</td>
-      <td><img src='https://github.com/user-attachments/assets/1059344b-d9b7-4189-a4b9-03fb6ed5966b'></td>
+      <td>메인페이지에서 회원가입 버튼 클릭시 정상적으로 이동하는지 확인</td>
+      <td>회원가입 버튼 클릭</td>
+      <td>회원가입 페이지로 이동</td>
+      <td><img src="https://github.com/user-attachments/assets/47245cc9-6224-44c6-abb4-f5daab58aeb0"/></td>
     </tr>
     <tr>
       <td>CASE02</td>
-      <td>화장품의 성분을 참고한 답변 반환</td>
-      <td>잡티 제거에 좋은 성분을 가진 화장품은?</td>
-      <td>질문에 알맞는 성분 추천 + 화장품 추천 + 화장품의 주요 성분</td>
-      <td><img src='https://github.com/user-attachments/assets/f099b5a8-4e0e-4a0c-a549-6eab0d7ef1e0'></td>
+      <td>회원가입 시 중복 검사를 통과하고 모든 조건 충족 시 로그인 창으로 이동하는지 확인</td>
+      <td>사용 가능한 아이디/닉네임 + 일치하는 비밀번호 입력 후 회원가입</td>
+      <td>회원가입 완료 후 로그인 창으로 이동</td>
+      <td><img src="https://github.com/user-attachments/assets/49943985-ec84-4d81-bb26-b3d31a18fa6e"/></td>
     </tr>
     <tr>
       <td>CASE03</td>
-      <td>사용자가 실제 사용하고 있는 화장품과의 궁합 반환</td>
-      <td>내가 넘버즈인 글루타치온 흔적 앰플을 가지고 있는데 이거랑 비타민이 함량된 세럼을 같이 써도 돼?</td>
-      <td>질문 의도에 적합한 답변 + 궁합이 좋은 화장품 추천 + 화장품과의 궁합</td>
-      <td><img src='https://github.com/user-attachments/assets/1dd1b90c-c024-4634-b168-bb8e777ca706'></td>
+      <td>로그인 성공 여부에 따라 페이지가 정상적으로 이동하는지 확인</td>
+      <td>정상적인 아이디/비밀번호 입력 후 로그인</td>
+      <td>로그인 성공 시 챗봇 페이지로 이동</td>
+      <td><img src="https://github.com/user-attachments/assets/7896afd1-8502-40e8-a0cd-6adc14651583"></td>
     </tr>
     <tr>
       <td>CASE04</td>
-      <td>특정 기능에 대한 시각화</td>
-      <td>세척력 좋은 클렌징폼 추천해줘</td>
-      <td>세척력이 좋은 화장품 + 화장품의 성분 설명과 함께 추천 이유 전달 + 세정력 시각화</td>
-      <td><img src='https://github.com/user-attachments/assets/2723220b-4cb0-4ef6-8b21-76b59969c516'></td>
+      <td>챗봇이 질문 의도에 따라 RAG 문서를 활용한 적절한 답변을 반환하는지 확인</td>
+      <td>예시 질문: "나는 지성피부야 끈적거리지 않는 앰플을 추천 받고 싶어"</td>
+      <td>질문 의도에 맞는 답변 + 관련 문서 기반 정보 제공</td>
+      <td><img src="https://github.com/user-attachments/assets/d5b24ec7-0890-422b-810b-2fb0d0764593"></td>
+    </tr>
+    <tr>
+      <td>CASE05</td>
+      <td>메시지 입력칸 비우기 버튼이 채팅창 화면이 초기화 되는지 확인</td>
+      <td>입력칸 비우기 버튼 클릭</td>
+      <td>입력란의 텍스트가 아닌, 채팅창 화면이 초기화</td>
+      <td><img src="https://github.com/user-attachments/assets/5be6a89c-5ca3-4934-a75a-a69fa58d258b"></td>
+    </tr
+    <tr>
+      <td>CASE06</td>
+      <td>마이페이지에서 최근 대화 내용을 정확히 불러오는지 확인</td>
+      <td>마이페이지 접속</td>
+      <td>시간 순으로 최근 대화 내용 출력</td>
+      <td><img src="https://github.com/user-attachments/assets/9ea48593-18e6-4e30-8b55-96d121cacad7"></td>
+"></td>
     </tr>
   </tbody>
 </table>
-
 
 
 <br/><br/>
