@@ -256,11 +256,12 @@ mistralai/Mistral-7B-Instruct-v0.1</td>
 
 ### 🫒 skincare_qa.csv </br> 
 - 원본 데이터  </br> 
-<img width="800" src="https://github.com/user-attachments/assets/03f7d5ea-19a9-4730-83bb-41142f4e9b41"> </br>
+![image](https://github.com/user-attachments/assets/ba3df277-8d38-484a-9293-844dc4ae7722)
+ </br>
 
-**1. usage 전처리**  
-  - 특수기호 (■) 제거   
-<img width="800" src="https://github.com/user-attachments/assets/3e329f19-d1c3-4f90-b80e-cd0b76fe31b7"> </br> 
+**1. Title , body 전처리**  
+![image](https://github.com/user-attachments/assets/725e2a43-dabe-4621-99b8-bd3fe45727d1)
+ </br> 
 
 <br/><br/>
 
@@ -330,19 +331,33 @@ mistralai/Mistral-7B-Instruct-v0.1</td>
 Figma로 설계된 디자인 시안을 바탕으로,  HTML,CSS 사용자 인터페이스를 구현
 </br> 
 
-<img src="https://github.com/user-attachments/assets/f50c330b-b149-4292-a4c7-43cec7108e08" width=990/>
 
-</br>
+</br> </br> 
 
-<img src="https://github.com/user-attachments/assets/7896afd1-8502-40e8-a0cd-6adc14651583" width=990/>
+
+
+# 🖌️ 화면 설계서(Figma) & 구현 결과 비교
+
+| 메인화면 설계서 | 현재 구현 결과 |
+|-----------------|----------------|
+| ![메인화면](https://github.com/user-attachments/assets/2e5fc06e-dd30-45cb-898f-3b7e4a32e7de) | ![](https://github.com/user-attachments/assets/f50c330b-b149-4292-a4c7-43cec7108e08) |
+| **로그인 화면 설계서** | **로그인 화면 구현** |
+| ![로그인](https://github.com/user-attachments/assets/d5696fc1-0ee5-42f3-a173-4c4ce409361d) | <img src="https://github.com/user-attachments/assets/8a03da95-a7f9-4cc3-8449-f58b3ecef668" width="330"/> 
+| **회원가입 화면 설계서** | **회원가입 화면 구현** |
+ <img src="https://github.com/user-attachments/assets/7306f66c-fd80-4365-9379-4cc9a9faf1be" width="300"> | <img src="https://github.com/user-attachments/assets/fe4ee735-fa8a-4b76-8e96-a896aa84f788" width="330"/>
+| **챗봇 화면 설계서** | **챗봇 화면 구현** |
+   <img src="https://github.com/user-attachments/assets/55f10dc2-ee47-4550-b752-034fb02a19a4" width="300"><br>|<img src="https://github.com/user-attachments/assets/7896afd1-8502-40e8-a0cd-6adc14651583" width=990/>
+---
+
+## 📱 새로 추가된 화면
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/fe4ee735-fa8a-4b76-8e96-a896aa84f788" width="330"/>
-  <img src="https://github.com/user-attachments/assets/8a03da95-a7f9-4cc3-8449-f58b3ecef668" width="330"/>
   <img src="https://github.com/user-attachments/assets/c6781acd-399d-4f57-881a-3e9f2e8b1a25" width="330"/>
 </div>
 
-</br> </br> 
+---
+
+위와 같이 Figma의 예시 화면과 실제 구현된 화면을 나란히 비교하여 한눈에 볼 수 있도록 정리했습니다.
 
 ## 🛠️ Backend
 
