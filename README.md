@@ -68,55 +68,55 @@
     <tr>
       <td>1</td>
       <td>스킨케어 질문 데이터 수집</td>
-      <td>25.05.04-25.05.08</td>
+      <td>25.05.24-25.05.25</td>
       <td>김성지, 백미송</td>
     </tr>
     <tr>
       <td>2</td>
       <td>데이터 전처리 및 정제</td>
-      <td>25.05.08-25.05.10</td>
+      <td>25.05.26-25.05.27</td>
       <td>김성지</td>
     </tr>
     <tr>
       <td>3</td>
       <td>QLoRA 학습 데이터 생성</td>
-      <td>25.05.10</td>
+      <td>25.05.28</td>
       <td>백미송, 현유경</td>
     </tr>
     <tr>
       <td>4</td>
       <td>백엔드 장고 변환</td>
-      <td>25.05.11-25.05.13</td>
+      <td>25.05.26-25.05.28</td>
       <td>김성지, 오정현</td>
     </tr>
     <tr>
       <td>5</td>
       <td>QLoRA 세팅 및 파인튜닝</td>
-      <td>25.05.14-25.05.15</td>
+      <td>25.05.29-25.06.02</td>
       <td>백미송, 현유경</td>
     </tr>
     <tr>
       <td>6</td>
-      <td>HTML/CSS를 활용한 UI 설계 및 구현</td>
-      <td>25.05.12-25.05.14</td>
+      <td>HTML/CSS를 활용한 UI 구현</td>
+      <td>25.06.07-25.06.09</td>
       <td>김성지, 오정현</td>
     </tr>
 <tr>
       <td>8</td>
       <td>AWS 배포</td>
-      <td>25.05.14-25.05.15</td>
+      <td>25.06.10</td>
       <td>김성지,현유경</td>
     </tr>
     <tr>
       <td>10</td>
       <td>통합 테스트 및 튜닝</td>
-      <td>25.05.14-25.05.15</td>
+      <td>25.06.10</td>
       <td>ALL</td>
     </tr>
     <tr>
       <td>11</td>
       <td>발표 자료 / 코드 정리</td>
-      <td>25.05.15</td>
+      <td>25.06.11</td>
       <td>ALL</td>
     </tr>
   </tbody>
@@ -128,18 +128,21 @@
 # ✅ 기술 스택 & 사용한 모델
 
 ## 🔩 기술 스택
+
 <table>
   <tbody>
     <tr>
       <td><strong>Frontend</strong></td>
       <td>
-        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white">
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">
+        <img src="https://img.shields.io/badge/CSS-663399?style=for-the-badge&logo=CSS3&logoColor=white">
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black">
       </td>
     </tr>
     <tr>
       <td><strong>Backend</strong></td>
       <td>
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=FastAPI&logoColor=white">
+        <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=Django&logoColor=white">
         <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
       </td>
     </tr>
