@@ -338,7 +338,7 @@ Figma로 설계된 디자인 시안을 바탕으로,  HTML,CSS 사용자 인터�
 </br></br>
 
 # 🚨 개선 사항
-<img src="https://github.com/user-attachments/assets/018e5918-d92b-4038-8519-d84c576f7ae7" width=500/>
+<img src="https://github.com/user-attachments/assets/018e5918-d92b-4038-8519-d84c576f7ae7" width=750/>
 
 > ※ 3차 때 개선 사항
 
