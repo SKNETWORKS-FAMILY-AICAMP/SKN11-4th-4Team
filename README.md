@@ -169,6 +169,7 @@
         <img src="https://img.shields.io/badge/RunPod-EE4C2C?style=for-the-badge">
         <img src="https://img.shields.io/badge/Amazon%20RDS-2D4999?style=for-the-badge&logo=Amazon%20RDS&logoColor=black"/>
         <img src="https://img.shields.io/badge/Amazon%20EC2-FFA500?style=for-the-badge&logo=Amazon%20EC2&logoColor=black"/>
+        <img src="https://img.shields.io/badge/docker-00ADD8?style=for-the-badge&logo=linux&logoColor=black">
     </tr>
   </tbody>
 </table>
