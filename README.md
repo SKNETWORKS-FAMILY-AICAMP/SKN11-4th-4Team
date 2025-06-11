@@ -277,10 +277,11 @@
 
 
 ## 회원가입
+<img src="https://github.com/user-attachments/assets/453047b2-af01-4ac9-9c84-d139b364315a" width="750">
 
 
 ## 챗봇
-
+<img src="https://github.com/user-attachments/assets/aca321f1-4f36-4317-a2aa-9f5355250911" width="750">
 
 
 <br/><br/>
