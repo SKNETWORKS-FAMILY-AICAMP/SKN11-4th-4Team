@@ -219,7 +219,7 @@
 <br/><br/>
 
 # 🪼 시스템 아키텍처
-<img src="https://github.com/user-attachments/assets/55d5cc30-65be-4341-8fc1-b23c3938d793" width="750">
+<img src="https://github.com/user-attachments/assets/011c3780-552a-4c09-869b-160394781588" width="750">
 
 <br/>
 
